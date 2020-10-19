@@ -3,12 +3,13 @@
 
 ### Install PyTorch and dependencies
 
-For Installation of PyTorch see [official website](https://pytorch.org/).
+### pytorch
+
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 
 You also need `nltk`:
- ```console
-pip install nltk
- ```
+
+conda install nltk
 
 If you get an error during the first run, you also need to install `nltk.tokenize.punkt`:
 Run this once in your terminal:

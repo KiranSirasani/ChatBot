@@ -17,7 +17,7 @@ nltk.download('punkt') # first-time use only
 nltk.download('wordnet') # first-time use only
 
 #Reading in the corpus
-with open(r'C:\Users\kiran\chatbot.txt','r', encoding='utf8', errors ='ignore') as fin:
+with open(r'chatbot.txt','r', encoding='utf8', errors ='ignore') as fin:
     raw = fin.read().lower()
 
 #TOkenisation
